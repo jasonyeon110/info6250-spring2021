@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+#item-app .login.hidden{
+    display: none;
+}
+
+#item-app .logged-in.hidden{
+    display: none;
+}
+
+div .login{
+    /* border: 1px solid black; */
+    width: fit-content;
+}
+
+.wrapper{
+    /* border: 1px solid black; */
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 5rem;
+}
+
+li{
+    padding: 5px;
+}
+
+li:nth-child(even){
+    background-color: bisque;
+}
+
+ul{
+    border: 2px solid ;
+    border-radius: 5px;
+    padding: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul.items{
+    list-style-type: square;
+    background-color: rgb(103, 156, 255);
+}
+
+#item-app{
+    width: 400px;
+    height: fit-content;
+}
+
+h2{
+    text-align: center;
+}
+
+#rating-container{
+    display: inline;
+    margin-left: 20px;
+    position:absolute;
+    left: 150px;
+}
+
+.labels{
+    padding-left: 3em;
+}
+
+.labels span{
+    padding-left: 1em;
+}
+
+#score{
+    padding-left: 60px;
+}
+
+.login{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.logged-in #out{
+    display: inline;
+    position: relative;
+    left: 25em;
+}
+

@@ -1,0 +1,5 @@
+# Extend basic .gitignore
+
+# Don't commit this in samples
+package-lock.json
+node_modules

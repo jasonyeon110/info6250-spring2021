@@ -1,0 +1,16 @@
+form { 
+  display: flex;
+  flex-direction: column;
+}
+
+label > span { 
+  display: inline-block;
+  min-width: 10%;
+}
+
+button { 
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+

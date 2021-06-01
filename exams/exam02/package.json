@@ -1,0 +1,27 @@
+{
+  "name": "exam02",
+  "version": "1.0.0",
+  "description": "* start from the up-to-date main branch (`git checkout main; git pull origin main`)\r * Create a feature branch named 'exam2' (`git checkout -b exam2`)\r * modify the `questions.md` file to have the answers required\r * Add any files necessary to create the application below\r * add, commit, and push the branch to github\r * Create a PR to merge to main\r * Be sure to include the reviewer(s)\r * Due by 11:59pm (PT) Sun Mar 28",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack && node server.js",
+    "build": "npx webpack",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  }
+}

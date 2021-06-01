@@ -1,0 +1,20 @@
+.app {
+  background-color: #C0FFEE;
+  height: 100vh;
+}
+
+.app .nav { 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #BADA55;
+}
+
+.app .nav > li { 
+}
+
+.app .nav > li.logout { 
+}
+

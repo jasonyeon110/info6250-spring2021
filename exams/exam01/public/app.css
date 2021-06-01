@@ -1,0 +1,47 @@
+html{
+    font-family: sans-serif;
+}
+
+div{
+    background-color: rgb(142, 178, 226);
+    text-align: center;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 30px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+body{
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(95, 141, 226);
+}
+
+.login-label{
+    margin:4px
+}
+
+.container2{
+    justify-content: center;
+}
+
+.user-input{
+    border-radius: inherit;
+    
+}
+
+.login-button{
+    border-radius: inherit;
+    background-color: rgb(139, 135, 177);
+}
+
+.login-button:hover{
+    background-color:rgb(113, 139, 219);
+}
+

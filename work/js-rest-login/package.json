@@ -1,0 +1,26 @@
+{
+  "name": "js-rest-login",
+  "version": "1.0.0",
+  "description": "* start from the up-to-date main branch (`git checkout main; git pull origin main`)\r * Create a feature branch named 'js-rest-login' (`git checkout -b js-rest-login`)\r * modify the files in this directory to have the require features\r * add, commit, and push the branch to github\r * Create a PR to merge to main\r * Be sure to include the TA(s) and I as reviewers.  \r * Due by 11:59pm (PT) Sun Mar 21",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "server": "node server.js",
+    "start": "npx webpack && node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.26.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "basic-express",
+  "version": "1.0.0",
+  "description": "* start from the up-to-date main branch (`git checkout main; git pull origin main`)\r * Create a feature branch named 'basic-express' (`git checkout -b basic-express`)\r * modify the files in this directory to have the required features\r * add, commit, and push the branch to github\r * Create a PR to merge to main\r * Be sure to include the reviewer(s)  \r * Due by Sun Feb 21, 11:59pm PT (Note: no class Mon Feb 15th, 2 weeks for this assignment)",
+  "main": "chat-web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

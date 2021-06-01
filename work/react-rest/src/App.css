@@ -1,0 +1,92 @@
+html{
+  /* background-color: #42a5f5; */
+  font-family: sans-serif; 
+  font-size: 20px;
+}
+
+.App {
+  text-align: center;
+  height: inherit;
+  background-image: url("./back.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 40rem;
+  height: 40rem;
+  font-weight: 600;
+  border-radius: 3rem;
+  margin: 2rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+.random-img{
+  object-fit: contain;
+  height: 200px;
+  border-radius: 50%;
+}
+
+ul{
+  list-style: circle;
+}
+
+li{
+  margin: 0.5rem;
+}
+
+li:hover{
+  font-weight: 1000;
+}
+
+.container{
+  text-align: center;
+  
+}
+
+button{
+  padding: 4px 10px;
+}
+
+label{
+  margin-right: 10px;
+}
+
+.dropdown{
+  display: inline-block;
+  position: relative;
+  left: 13rem;
+}
+
+.show-fact-label{
+  font-size: 1.5rem;
+}
+
+.loading{
+  display: inline-block;
+  transform: 2;
+}
+
+.spinner{
+  display: inline-block;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+@media (prefers-reduced-motion: no-preference){
+  .spinner{
+    animation: spinner-spin infinite 1s linear;
+  }
+}
+
+@keyframes spinner-spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}

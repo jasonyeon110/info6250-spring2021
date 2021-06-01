@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+}
+
+.wrapper{
+    left: 50px;
+    width: fit-content;
+}
+
+li{
+    padding: 5px;
+}
+
+li:nth-child(even){
+    background-color: rgb(156, 179, 223);
+}
+
+ul{
+    border: 2px solid ;
+    border-radius: 5px;
+    padding: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul.item-list{
+    list-style-type: square;
+    background-color: rgb(103, 156, 255);
+}
+
+#list-app{
+    width: 400px;
+    height: 100vh;
+}
+
+h2{
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+.item{
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+#quant-container{   
+    display: inline;
+    margin-left: 20px;
+    position: absolute;
+    left: 270px;
+}
+
+#input-field{
+    text-align: center;
+}

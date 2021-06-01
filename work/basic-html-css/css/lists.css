@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline blue wavy;
+    font-weight: 700;
+    color: brown;   
+}
+
+h2{
+    text-align: center;
+}
+
+h2:hover{
+    color: rgba(8, 248, 8, 0.5);
+}
+
+div{
+    height:20px;
+    margin:100px;    
+}
+
+ul{
+    list-style-type: none;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+li{
+    border-style:solid;
+    border-width: 1px;
+    box-sizing:content-box;
+}
+
+li:nth-child(odd){
+    background-color: rgb(131, 138, 233);
+}
+
+li:nth-child(even){
+    background-color: rgb(198, 201, 243);
+}

@@ -1,0 +1,42 @@
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+.app {
+  text-align: center;
+  border: 10px solid #0094cc;
+  border-radius: 30px;
+  padding: 20px;
+  max-width: max-content;
+  background-color: #ccd9df;
+}
+
+.play{
+  margin: 5px;
+}
+
+.app:hover{
+  border: 10px solid #40c4ff;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+#word-label{
+  padding-right: 10px;
+}
+
+#guess-submit{
+  margin-left: 5px;
+  font-weight: 300;
+  transition: font-weight 250ms ease-in-out
+}
+
+#guess-submit:hover{
+  font-weight: 900;
+}
+
+

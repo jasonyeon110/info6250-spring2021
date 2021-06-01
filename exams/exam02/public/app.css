@@ -1,0 +1,163 @@
+body{
+    background-color: bisque;   
+    font: 1rem Arial,Helvetica,Sans-Serif;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 0;
+    margin-left: 7em;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 500px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 2%;
+}
+
+header.page-header {
+    background: no-repeat left/cover url(/image/header-image.png);
+    display: flex;
+    height: 120px;
+    min-width: 500px;
+    max-width: 80vw;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.911);
+    text-shadow: #000 0 0 .2em;
+}
+
+.add-new.hidden{
+    display: none;
+}
+
+.add-new-recipes.hidden{
+    display: none;
+}
+
+.login.hidden{
+    display: none;
+}
+
+.recipes{
+    margin: 20px;
+}
+
+.update-recipe-button{
+    text-align: center;
+    margin: 20px
+}
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: inherit;
+    max-width: 80vw;
+    text-align: right;
+}
+
+.contents{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    padding: 5px 5px;
+}
+
+.title:hover{
+    background-color: rgb(250, 241, 231);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.title{
+    margin: 10px;
+    padding: 2px 2px;
+}
+
+.recipe .detailed.hidden{
+    display: none;
+}
+
+.wrapper{
+    border: 3px solid rgb(59, 51, 1);
+    width: 80vw;
+    height: inherit;
+    margin-top: 10px;
+}
+
+.wrapper.hidden{
+    display: none;
+}
+
+.home-login-button.hidden{
+    display: none;
+}
+
+.home-logout-button.hidden{
+    display: none;
+}
+
+.detail.hidden{
+    display: none;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.go-back-button.hidden{
+    display: none;
+}
+
+.go-back-button{
+    text-align: right;
+}
+
+.contents.hidden{
+    display: none;
+}
+
+span#detail-id{
+    display: inline;
+}
+
+h2{
+    text-align: center;
+    display: inline;
+}
+
+.detail-recipe-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.detail-ingredients{
+    text-align: center;
+}
+
+.detail-instructions{
+    text-align: center;
+}
+
+#ingredients-label{
+    text-align: center;
+}
+
+#ingredients-field{
+    margin: 10px 10px;
+}
+
+#recipe-title{
+    margin: 10px 10px;
+}
+
+#instructions-field{
+    margin: 10px 10px;
+}

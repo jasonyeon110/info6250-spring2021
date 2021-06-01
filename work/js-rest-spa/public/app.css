@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+}
+
+.wrapper{
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 5rem;
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+    padding: 5px;
+}
+
+li:nth-child(even){
+    background-color: bisque;
+}
+
+ul{
+    border: 2px solid ;
+    border-radius: 5px;
+    padding: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul.item-list{
+    list-style-type: square;
+    background-color: rgb(103, 156, 255);
+}
+
+#list-app{
+    width: 400px;
+    height: fit-content;
+}
+
+h3{
+    text-align: center;
+}
+
+div #input-filed{
+    text-align: center;
+}
+
+#quant-container{   
+    display: inline;
+    margin-left: 20px;
+    position: absolute;
+    left: 270px;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(224, 116, 116);
+}
+
+.item{
+    padding-left: 1rem;
+}

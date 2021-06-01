@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Recipe-Land</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <h1 class="home"><a href="/">RECIPE-LAND</a></h1>
+    </header>
+    <nav>
+        <span class="in-and-out">
+            <button type="button" class="home-login-button">Login</button>
+            <button type="button" class="home-logout-button hidden">Logout</button>
+        </span>
+    </nav>
+
+    <!-- hidden login -->
+    <div class="login hidden">
+        <label>Username: <input type="text" required="true"></label>
+        <button type="button" class="login-button">Login</button>
+    </div>
+
+    <!-- hidden add recipe page Below-->
+    <div class="add-new-recipes hidden">
+        <div>
+            <label for="recipe-title">Recipe Title</label>
+            <input type="text" id="recipe-title">
+        </div>
+        <div>
+            <label for="ingredients" id="ingredients-label">Ingredients</label>
+            <textarea name="ingredients" id="ingredients-field" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="instructions" id="instruction-label">Instructions</label>
+            <textarea name="instructions" id="instructions-field" cols="30" rows="10"></textarea>
+        </div>
+        <button class="update-recipe-button">Add Recipe</button>
+    </div>
+    <!-- hidden add recipe page up-->
+
+    <div class="wrapper">
+        <button class="add-new hidden">Add New Recipe</button>
+        <div class="contents">
+            <ul class="recipes">
+            </ul>
+        </div>
+        <button type="button" class="go-back-button">Go Back</button>
+        <div class="detail">
+        </div>
+    </div>
+
+    <script src="recipe.js"></script>
+</body>
+
+</html>

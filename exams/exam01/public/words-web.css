@@ -1,0 +1,110 @@
+*{
+    margin: 5px 0;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid;
+    margin-right: 10em;
+    margin-left: 10em;
+}
+
+.whole-wrapper{
+    border-radius: 30px;
+    justify-content: center;
+    width: fit-content;
+    padding: 30px;
+    border: 5px solid rgb(101, 155, 190);
+    background-color: rgb(212, 212, 240);
+}
+
+div.logout{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: left;
+    border: 0px;
+    background-color: white;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgb(212, 212, 240);
+}
+
+button:hover{
+    background-color: brown;
+}
+
+form.input-form{
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.wrapper{
+    border: 10px solid red;
+}
+
+ul{
+    list-style: none;
+}
+
+div.match-turn{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: 80vh;
+}
+
+.input-guess-text{
+    text-align: center;
+}
+
+div.wrong-answers-container{
+    border: 2px solid black;
+    text-align: center;
+    width: 30vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 39%;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ul.guessedWords{
+    max-height: 60vh;
+    overflow: auto;
+    text-align: center;
+    padding: 0px;
+}
+
+form.form-logout{
+    text-align: center;
+}
+
+div.winning-page{
+    background-color: rgb(99, 99, 209);
+    padding: 30px;
+    border: 10px black;
+    border-radius: 10px;
+}
+
+label.wrong-lable{
+    border-bottom: 1px solid black;
+}
+
+
+
+
+

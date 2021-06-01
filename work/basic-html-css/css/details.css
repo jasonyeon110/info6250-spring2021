@@ -1,0 +1,27 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: wavy underline blue;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+p:hover{
+    color: red;
+}
+
+#form{
+    display: inline-block;
+    margin: 0px;
+    padding: 50px;
+}
+
+button{
+    margin-left: 70px;
+    margin-top: 10px;
+}

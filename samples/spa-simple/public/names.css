@@ -1,0 +1,8 @@
+.delete { 
+  margin-left: 20px;
+  color: red;
+}
+li:hover {
+  background-color: #BADA55;
+}
+

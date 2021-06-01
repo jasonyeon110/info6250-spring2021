@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST & SPA</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Storage Item Lists</h1>
+        <div class="status"></div>
+        <div id="list-app">
+            <div id="input-filed">
+                <label for="item-name">Item Name</label>
+                <input class="add-item" type="text" id="item-name">
+                <button class="add" type="submit" for="item-name">Add</button>
+            </div>
+            <div class="list-display">
+                <h3>List of Items</h3>
+                <ul class="item-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="items.js"></script>
+</body>
+
+</html>

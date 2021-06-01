@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Rating</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+    <div id="item-app">
+        <div class="login">
+            <label>Username: <input type="text" required="required"></label>
+            <button type="button">Login</button>
+            <div class="login-status"></div>
+        </div>
+        <div class="wrapper">
+            <div class="logged-in">
+                <h2>Item Lists</h2>
+                <div><button type="submit" id="out">Logout</button></div>
+                <button class="sorting">Sort</button>
+                <div id="input-filed">
+                    <label for="item-name">Item Name</label>
+                    <input class="add-item" type="text" id="item-name">
+                    <button class="add-button" type="submit" for="item-name">Add</button>
+                </div>
+                <p class="labels"><span>Item</span> <span id="score"> -----Score-----</span> </p>
+                <ul class="items"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="item.js"></script>
+</body>
+
+</html>
